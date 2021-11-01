@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f8992f38d749479280b0523592aaf224" Name="Diagram1">
+        <EntityTypeShape EntityType="qlbanhangModel.cthd" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlbanhangModel.hoadon" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlbanhangModel.khachhang" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlbanhangModel.nhanvien" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="qlbanhangModel.sanpham" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="qlbanhangModel.fk_hoadon" ManuallyRouted="false" />
+        <AssociationConnector Association="qlbanhangModel.fk_sanpham" ManuallyRouted="false" />
+        <AssociationConnector Association="qlbanhangModel.fk_khachhang" ManuallyRouted="false" />
+        <AssociationConnector Association="qlbanhangModel.fk_nhanvien" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
